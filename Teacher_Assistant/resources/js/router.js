@@ -10,8 +10,18 @@ const routes = [
         component: () => import("./pages/home/HomeView.vue"),
     },
     {
-        path: "/admin/dashboard",
-        component: () => import("./pages/admins/DashboardView.vue"),
+        path: "/dashboard",
+        component: () => import("./pages/admins/layout/DashboardLayout.vue"),
+        children: [
+            {
+                path: "",
+                redirect: "/dashboard/overview",
+            },
+            {
+                path: "overview",
+                component: () => import("./pages/admins/DashboardView.vue"),
+            },
+        ],
     },
 ];
 
