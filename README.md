@@ -1,16 +1,16 @@
 //=============================================
 
-### Frontend project Guide Line>>
+# Frontend project Guide Line>>
 
 1.  On main folder teacher-assistant-frontend,
 
-    # open the terminal and run command below:
+    ### open the terminal and run command below:
 
     `npm install ` or `npm i ` to install all dependencies for this application.
 
 2.  After installing all packages successfully, you can use following commands in order to start your server :
 
-    # on the same folder, running command:
+    ### on the same folder, running command:
 
     `npm run dev` : it will start a server at local host (http://localhost:3000/).
 
@@ -22,12 +22,12 @@ Note : If any error occurs please check node_modules folder if it's missing then
 
 //=============================================
 
-### Backend project Guide Line
+# Backend project Guide Line
 
-# After clone or download this repository:
+### After clone or download this repository:
 
 1. On main folder teacher-assistant-backend,
-   # Open CMD or Terminal and run the command below:
+   ### Open CMD or Terminal and run the command below:
    - Run Command : `composer install` or `composer i `
    - Make sure you have installed composer, laravel on your machine. If not go to composer official website and follow instructions
 2. Run `php artisan serve` to start the Laravel Server.
