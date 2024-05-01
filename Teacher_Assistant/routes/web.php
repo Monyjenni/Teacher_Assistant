@@ -2,12 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/test', function () {
-    return 'hello';
-});
-
-Route::get('/{vue_capture?}', function () {
+Route::get('/', function () {
     return view('welcome');
-})->where('vue_capture', '[\/\w\.-]*');
+});
+Route::get('/login', function () {
+    return view('login');
+});
 
 
